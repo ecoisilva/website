@@ -1,0 +1,29 @@
+﻿baseURL: https://ecoisilva.netlify.app/
+title: Inês Silva
+theme: hugo-theme-m10c
+paginate: 8
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 1
+    - identifier: home
+      name: Home
+      url: /
+      weight: 2
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 3
+params:
+  author: Inês Silva
+  description: Postdoctoral Researcher
+  menu_item_separator: ' - '
+  social:
+    - icon: github
+      name: Github
+      url: https://github.com/ecoisilva
+    - icon: twitter
+      name: Twitter
+      url: https://twitter.com/ecoisilva
