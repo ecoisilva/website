@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://ecoisilva.netlify.app/</loc>
+    <lastmod>2022-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ecoisilva.netlify.app/posts/</loc>
+    <lastmod>2022-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ecoisilva.netlify.app/tags/</loc>
+    <lastmod>2022-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ecoisilva.netlify.app/tags/welcome/</loc>
+    <lastmod>2022-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ecoisilva.netlify.app/posts/001-welcome/</loc>
+    <lastmod>2022-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://ecoisilva.netlify.app/about/</loc>
+  </url><url>
+    <loc>https://ecoisilva.netlify.app/categories/</loc>
+  </url>
+</urlset>

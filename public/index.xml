@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inês Silva</title>
+    <link>https://ecoisilva.netlify.app/</link>
+    <description>Recent content on Inês Silva</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 16 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ecoisilva.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Welcome!</title>
+      <link>https://ecoisilva.netlify.app/posts/001-welcome/</link>
+      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://ecoisilva.netlify.app/posts/001-welcome/</guid>
+      <description>This is my website. I am referencing a footnote1
+library(ctmm) } 1 2 3 4 5 6 7  package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;{linenos=table}&amp;#34;) }   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in dictum tortor. Morbi laoreet enim id sem euismod lobortis. Donec quam libero, bibendum non cursus vitae, dictum vel eros.   I am the footnote&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+   </description>
+    </item>
+    
+    <item>
+      <title>About me</title>
+      <link>https://ecoisilva.netlify.app/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://ecoisilva.netlify.app/about/</guid>
+      <description>I am a postdoctoral researcher in the Earth System Science group at the Center for Advanced Systems Understanding (CASUS), located in Görlitz, Germany. I have a background spanning animal movement, road ecology and community ecology projects in Southeast Asia and South America. I am particularly interested in how animal movement is influenced by anthropogenic impacts, such as animal-road interactions and wildlife-vehicle collisions, study design and facilitating the uptake of new methods in movement ecology.</description>
+    </item>
+    
+  </channel>
+</rss>
