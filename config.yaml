@@ -1,29 +1,92 @@
-﻿baseURL: https://ecoisilva.netlify.app/
-title: Inês Silva
-theme: hugo-theme-m10c
-paginate: 8
+baseURL: https://ecoisilva.netlify.app/
+languageCode: en-US
+title: "Inês Silva"
+theme: "hugo-PaperMod"
+enableInlineShortcodes: true
+enableRobotsTXT: true
+taxonomies:
+    tag: tags
+ignoreFiles:
+  - \.Rmd$
+  - \.Rmarkdown$
+  - _cache$
+permalinks:
+  post: /:year/:month/:day/:slug/
+pagination:
+  disableAliases: true
+  pagerSize: 5
+  path: page
+
 menu:
   main:
-    - identifier: about
-      name: About
+    - name: About me
       url: /about/
       weight: 1
-    - identifier: home
-      name: Home
-      url: /
+    - name: Publications
+      url: publications/
       weight: 2
-    - identifier: tags
-      name: Tags
-      url: /tags/
-      weight: 3
+    # - name: GitHub
+    #   url: https://github.com/ecoisilva
+    #   weight: 3
+    # - name: Bluesky
+    #   url: https://bsky.app/profile/ecoisilva.bsky.social
+    #   weight: 4
+
+
 params:
-  author: Inês Silva
-  description: Postdoctoral Researcher
-  menu_item_separator: ' - '
-  social:
-    - icon: github
-      name: Github
-      url: https://github.com/ecoisilva
-    - icon: twitter
-      name: Twitter
-      url: https://twitter.com/ecoisilva
+  description: "Inês Silva is a quantitative ecologist addressing study design and movement ecology questions"
+  MathJaxCDN: //cdnjs.cloudflare.com/ajax/libs
+  MathJaxVersion: 2.7.5
+  favicon: favicon.ico
+  highlightjsCDN: //cdnjs.cloudflare.com/ajax/libs
+  highlightjsLang:
+    - r
+    - yaml
+  highlightjsTheme: github
+  highlightjsVersion: 9.12.0
+  logo:
+    alt: Logo
+    height: 50
+    url: logo.png
+    width: 50
+  defaultTheme: dark
+  comments: false
+  math: true
+  profileMode:
+          enabled: true
+          author: "Inês Silva"
+          subtitle: "I am a postdoctoral researcher @ <a href='https://casus.science/'>CASUS, HZDR</a>,<br>addressing <span style='color: #009da0;'>study design</span> and <span style='color: #009da0;'>movement ecology</span> questions."
+          imageUrl: https://avatars.githubusercontent.com/u/41948956?s=400&u=93b1cc69760fb4ef0392f834526d88bd126255f9&v=4
+          imageWidth: 160
+          imageHeight: 160
+          buttons:
+            - name: About me
+              url: about/
+            # - name: Publications
+            #    url: publications/
+            # - name: Contact
+            #    url: /contact
+  socialIcons:
+  # - name: CV
+  #   url: cv.pdf
+  - name: Email
+    url: mailto:i.simoes-silva@hzdr.de
+  # - name: Twitter
+    # url: https://twitter.com/ecoisilva
+  - name: Google Scholar
+    url: https://scholar.google.com/citations?user=dRvr6IYAAAAJ&hl
+  - name: GitHub
+    url: https://github.com/ecoisilva
+  - name: Bluesky
+    url: https://bsky.app/profile/ecoisilva.bsky.social
+markup:
+    goldmark:
+        renderer:
+            unsafe: true
+    highlight:
+        guessSyntax: true
+        style: autumn 
+    tableOfContents:
+        endLevel: 2
+        ordered: false
+        startLevel: 2

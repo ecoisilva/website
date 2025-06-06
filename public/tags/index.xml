@@ -1,19 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Inês Silva</title>
     <link>https://ecoisilva.netlify.app/tags/</link>
     <description>Recent content in Tags on Inês Silva</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ecoisilva.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en-US</language>
+    <lastBuildDate>Tue, 01 Dec 2020 21:13:14 -0500</lastBuildDate>
+    <atom:link href="https://ecoisilva.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>welcome</title>
-      <link>https://ecoisilva.netlify.app/tags/welcome/</link>
-      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ecoisilva.netlify.app/tags/welcome/</guid>
+      <title>Plot</title>
+      <link>https://ecoisilva.netlify.app/tags/plot/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://ecoisilva.netlify.app/tags/plot/</guid>
       <description></description>
     </item>
-    
+    <item>
+      <title>R Markdown</title>
+      <link>https://ecoisilva.netlify.app/tags/r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://ecoisilva.netlify.app/tags/r-markdown/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Regression</title>
+      <link>https://ecoisilva.netlify.app/tags/regression/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://ecoisilva.netlify.app/tags/regression/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

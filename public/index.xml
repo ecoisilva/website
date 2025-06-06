@@ -1,30 +1,58 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Inês Silva</title>
     <link>https://ecoisilva.netlify.app/</link>
     <description>Recent content on Inês Silva</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 16 Oct 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://ecoisilva.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <generator>Hugo -- 0.147.3</generator>
+    <language>en-US</language>
+    <lastBuildDate>Thu, 24 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://ecoisilva.netlify.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Welcome!</title>
-      <link>https://ecoisilva.netlify.app/posts/001-welcome/</link>
-      <pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://ecoisilva.netlify.app/posts/001-welcome/</guid>
-      <description>This is my website. I am referencing a footnote1
-library(ctmm) } 1 2 3 4 5 6 7  package main import &amp;#34;fmt&amp;#34; func main() { fmt.Println(&amp;#34;{linenos=table}&amp;#34;) }   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis in dictum tortor. Morbi laoreet enim id sem euismod lobortis. Donec quam libero, bibendum non cursus vitae, dictum vel eros.   I am the footnote&amp;#160;&amp;#x21a9;&amp;#xfe0e;
-   </description>
+      <title>Publications</title>
+      <link>https://ecoisilva.netlify.app/publications/</link>
+      <pubDate>Thu, 24 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://ecoisilva.netlify.app/publications/</guid>
+      <description>&lt;div style=&#34;text-align: justify;&#34;&gt;
+&lt;p&gt;Grilo, C., Neves, T., Bates, J., le Roux, A., Medrano-Vizcaíno, P., Quaranta, M., &lt;span style=&#34;color:#009da0&#34;&gt;Silva., I.&lt;/span&gt;, Soanes, K., &amp;amp; Wang, Y. (2025). Global Roadkill Data: a dataset on terrestrial vertebrate mortality caused by collision with vehicles. Scientific Data, 12(1), 505.&lt;/p&gt;
+&lt;p&gt;Crane, M., &lt;span style=&#34;color:#009da0&#34;&gt;Silva., I.&lt;/span&gt;, Grainger, M. J., &amp;amp; Gale, G. A. (2025). Predicting risk to bat species from wind turbine collision in Southeast Asia. Conservation Biology, 39(2), e14452.&lt;/p&gt;
+&lt;p&gt;Noble, D. W., Xirocostas, Z. A., Wu, N. C., Martinig, A. R., Almeida, R. A., Bairos-Novak, K. R., &amp;hellip; &lt;span style=&#34;color:#009da0&#34;&gt;Silva., I.&lt;/span&gt;, … &amp;amp; Lagisz, M. (2024). The promise of community-driven preprints in ecology and evolution. Proceedings of the Royal Society B: Biological Sciences, 292(2039), 20241487.&lt;/p&gt;</description>
     </item>
-    
     <item>
-      <title>About me</title>
+      <title>Hello R Markdown</title>
+      <link>https://ecoisilva.netlify.app/2020/12/01/hello-r-markdown/</link>
+      <pubDate>Tue, 01 Dec 2020 21:13:14 -0500</pubDate>
+      <guid>https://ecoisilva.netlify.app/2020/12/01/hello-r-markdown/</guid>
+      <description>&lt;h1 id=&#34;r-markdown&#34;&gt;R Markdown&lt;/h1&gt;
+&lt;p&gt;This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see &lt;a href=&#34;http://rmarkdown.rstudio.com&#34;&gt;http://rmarkdown.rstudio.com&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;You can embed an R code chunk like this:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#0a0&#34;&gt;summary&lt;/span&gt;(cars)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;##      speed           dist       &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;##  Min.   : 4.0   Min.   :  2.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;##  1st Qu.:12.0   1st Qu.: 26.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;##  Median :15.0   Median : 36.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;##  Mean   :15.4   Mean   : 42.98  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;##  3rd Qu.:19.0   3rd Qu.: 56.00  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;##  Max.   :25.0   Max.   :120.00&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fit &amp;lt;- &lt;span style=&#34;color:#0a0&#34;&gt;lm&lt;/span&gt;(dist ~ speed, data = cars)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;fit
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;## &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;## Call:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;## lm(formula = dist ~ speed, data = cars)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;## &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;## Coefficients:&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;## (Intercept)        speed  &lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#aaa;font-style:italic&#34;&gt;##     -17.579        3.932&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;including-plots&#34;&gt;Including Plots&lt;/h1&gt;
+&lt;p&gt;You can also embed plots. See Figure &lt;a href=&#34;#fig:pie&#34;&gt;1&lt;/a&gt; for example:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
       <link>https://ecoisilva.netlify.app/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
       <guid>https://ecoisilva.netlify.app/about/</guid>
-      <description>I am a postdoctoral researcher in the Earth System Science group at the Center for Advanced Systems Understanding (CASUS), located in Görlitz, Germany. I have a background spanning animal movement, road ecology and community ecology projects in Southeast Asia and South America. I am particularly interested in how animal movement is influenced by anthropogenic impacts, such as animal-road interactions and wildlife-vehicle collisions, study design and facilitating the uptake of new methods in movement ecology.</description>
+      <description>&lt;h2 id=&#34;hi-there-&#34;&gt;Hi there 👋&lt;/h2&gt;
+&lt;p&gt;I am a postdoctoral researcher in the Earth System Science group at the Center for Advanced Systems Understanding (&lt;a href=&#34;https://www.casus.science/&#34;&gt;CASUS&lt;/a&gt;), located in Görlitz, Germany. I am studying animal-road interactions and movement ecology study design. My PhD was based in Thailand, working on the spatial-temporal patterns of wildlife-vehicle collisions in a Thai biodiversity hotspot, with a secondary focus on bat communities. I am particularly interested in movement ecology and road ecology.&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

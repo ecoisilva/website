@@ -1,0 +1,8 @@
+.profile_inner .button {
+    color: #000000 !important;
+    background: var(--sea);
+}
+
+.profile_inner h1 {
+    font-family: 'Barlow', sans-serif;
+}

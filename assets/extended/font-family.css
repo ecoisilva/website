@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Roboto+Condensed&family=JetBrains+Mono&display=swap');
+
+@font-face {
+  font-family: 'Barlow', sans-serif;
+}
+
+@font-face {
+  font-family: 'Barlow', sans-serif;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'JetBrains Mono', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+h2 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+  font-size: 11px;
+}
+
+code, pre {
+  font-family: 'JetBrains Mono', monospace;
+}
